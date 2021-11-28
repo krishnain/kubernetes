@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc29882-510f-47af-8431-b6d98b74e0ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postgres-deployment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-deployment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result-app-deployment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voting-app-deployment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker-app-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-affinity-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-affinity1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pod-defintion9.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secret1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secret2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tolerations-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tolerations1.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgres-deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/postgres-deployment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +47,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="0" key="FileChooserDialogImpl" timestamp="1637371456896">
+    <state x="321" y="0" key="FileChooserDialogImpl" timestamp="1638024515610">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="321" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1637371456896" />
+    <state x="321" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1638024515610" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1637371461395">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1637371461395" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1637371476037">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1638024496614">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1637371476037" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1638024496614" />
   </component>
 </project>

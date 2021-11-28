@@ -1,0 +1,40 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: nginx-deployment
+ labels:
+  author: intelliqit
+  type: proxy
+spec:
+ replicas: 3
+ selector:
+  matchLabels:
+   type: proxy
+ template:
+  metadata:
+   name: nginx-pod
+   labels:
+    type: proxy
+  spec:
+   containers:
+    - name: mygninx
+      image: nginx
+      ports:
+       - containerPort: 80
+   affinity :
+     nodeAffinity:
+       requiredDuringSchedulingIgnoredDuringExecution:
+         nodeSelectorTerms:
+          - matchExpressions:
+             - key: salve1
+               values:
+                 - intelliqit1
+               operator: In
+          - matchExpressions:
+              - key: slave2
+                values:
+                  - intelliqit2
+                operator: In
+...
+
